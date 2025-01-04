@@ -1,8 +1,25 @@
-# React + Vite
+# Zego_VideoCall
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A video calling application built using **ZEGOCLOUD** and **React**. This project allows users to join one-on-one or group video calls in real-time using ZEGOCLOUD's real-time communication SDK.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **One-on-One Video Call**: Users can start a direct video call with another user.
+- **Group Video Call**: Users can start a group video call with multiple participants.
+- **Responsive UI**: The app is optimized for both mobile and desktop views.
+- **Real-time Communication**: Powered by ZEGOCLOUD's real-time communication SDK.
+
+## Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Real-Time Communication**: ZEGOCLOUD
+- **Build Tool**: Vite
+- **Hosting**: Local development (with `host: true` for local network access)
+
+## Installation
+
+To get started with the project, clone the repository and install the required dependencies:
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Zego_VideoCall.git
