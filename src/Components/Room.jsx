@@ -32,7 +32,7 @@ const Room = () => {
             sharedLinks: [
                 {
                     name: 'video link',
-                    url: `https://zego-video-call-zeta.vercel.app?type=${encodeURIComponent(type)}&roomId=${roomId}`, // Updated URL with your Vercel link
+                    url:  `https://zego-video-call-zeta.vercel.app/room/${roomId}?type=${encodeURIComponent(type)}`,
                 },
             ],
             scenario: {
